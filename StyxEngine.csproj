@@ -1,0 +1,258 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack1Left.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack1Right.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack2Left.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack2Right.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack3Left.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack3Right.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_deathLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_deathRight.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_hurtLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_hurtRight.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_idleLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_idleRight.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_runLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_runRight.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_run_attackLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_run_attackRight.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkLeft.gif" />
+    <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkRight.gif" />
+    <None Remove="Assets\Knight\__Attack.gif" />
+    <None Remove="Assets\Knight\__Attack2.gif" />
+    <None Remove="Assets\Knight\__Attack2NoMovement.gif" />
+    <None Remove="Assets\Knight\__AttackCombo2hit.gif" />
+    <None Remove="Assets\Knight\__AttackComboNoMovement.gif" />
+    <None Remove="Assets\Knight\__AttackLeft.gif" />
+    <None Remove="Assets\Knight\__AttackNoMovement.gif" />
+    <None Remove="Assets\Knight\__AttackRight.gif" />
+    <None Remove="Assets\Knight\__Crouch.gif" />
+    <None Remove="Assets\Knight\__CrouchAll.gif" />
+    <None Remove="Assets\Knight\__CrouchAttack.gif" />
+    <None Remove="Assets\Knight\__CrouchTransition.gif" />
+    <None Remove="Assets\Knight\__CrouchWalk.gif" />
+    <None Remove="Assets\Knight\__Dash.gif" />
+    <None Remove="Assets\Knight\__Death.gif" />
+    <None Remove="Assets\Knight\__DeathNoMovement.gif" />
+    <None Remove="Assets\Knight\__Fall.gif" />
+    <None Remove="Assets\Knight\__Hit.gif" />
+    <None Remove="Assets\Knight\__Idle.gif" />
+    <None Remove="Assets\Knight\__JumpFallInbetween.gif" />
+    <None Remove="Assets\Knight\__Roll.gif" />
+    <None Remove="Assets\Knight\__RunLeft.gif" />
+    <None Remove="Assets\Knight\__RunRight.gif" />
+    <None Remove="Assets\Knight\__Slide.gif" />
+    <None Remove="Assets\Knight\__SlideAll.gif" />
+    <None Remove="Assets\Knight\__SlideTransitionEnd.gif" />
+    <None Remove="Assets\Knight\__SlideTransitionStart.gif" />
+    <None Remove="Assets\Knight\__TurnAround.gif" />
+    <None Remove="Assets\Knight\__WallClimb.gif" />
+    <None Remove="Assets\Knight\__WallClimbNoMovement.gif" />
+    <None Remove="Assets\Knight\__WallHang.gif" />
+    <None Remove="Assets\Knight\__WallSlide.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack1Left.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack1Right.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack2Left.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack2Right.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack3Left.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_attack3Right.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_deathLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_deathRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_hurtLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_hurtRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_idleLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_idleRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_runLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_runRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_run_attackLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_run_attackRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Attack2.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Attack2NoMovement.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__AttackCombo2hit.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__AttackComboNoMovement.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__AttackLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__AttackNoMovement.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__AttackRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Crouch.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__CrouchAll.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__CrouchAttack.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__CrouchTransition.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__CrouchWalk.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Dash.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Death.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__DeathNoMovement.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Fall.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Hit.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Idle.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__JumpRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__JumpFallInbetween.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Roll.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__RunLeft.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__RunRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__Slide.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__SlideAll.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__SlideTransitionEnd.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__SlideTransitionStart.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__TurnAround.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__WallClimb.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__WallClimbNoMovement.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__WallHang.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Knight\__WallSlide.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\O.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\X.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\EnemyResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnemyResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\EnemyResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EnemyResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
