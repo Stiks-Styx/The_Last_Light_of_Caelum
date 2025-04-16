@@ -4,6 +4,6 @@ is an emotionally charged 2D platformer that tells the story of Caelum, a fallen
 Explore a world of betrayal, love, and sacrifice through dynamic combat, atmospheric storytelling, and an immersive narrative-driven journey.
 
 # Assets Used in this Project - Credits to the creators of this arts
--https://craftpix.net/freebies/free-skeleton-pixel-art-sprite-sheets/
--https://craftpix.net/freebies/free-wizard-sprite-sheets-pixel-art/
--https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character
+- https://craftpix.net/freebies/free-skeleton-pixel-art-sprite-sheets/
+- https://craftpix.net/freebies/free-wizard-sprite-sheets-pixel-art/
+- https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character
