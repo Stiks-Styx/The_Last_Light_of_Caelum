@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Styx\\Desktop\\StyxEngine\\StyxEngine.csproj": {}
+    "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\StyxEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Styx\\Desktop\\StyxEngine\\StyxEngine.csproj": {
+    "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\StyxEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Styx\\Desktop\\StyxEngine\\StyxEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\StyxEngine.csproj",
         "projectName": "StyxEngine",
-        "projectPath": "C:\\Users\\Styx\\Desktop\\StyxEngine\\StyxEngine.csproj",
+        "projectPath": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\StyxEngine.csproj",
         "packagesPath": "C:\\Users\\Styx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Styx\\Desktop\\StyxEngine\\obj\\",
+        "outputPath": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Utils\NoFocusButton.cs">
+    <Compile Update="Levels\TestLevel\TestLevel1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UIElements\GoalVertical.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Form\MainGame.cs">
-      <SubType>Form</SubType>
+    <Compile Update="UIElements\Tiles\LeftCornerTile.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Form\MenuForm.cs">
-      <SubType>Form</SubType>
+    <Compile Update="UIElements\Tiles\Tiles.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Form\TicTacToeForm.cs">
+    <Compile Update="UIElements\Wall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="WinForm\MainGame.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

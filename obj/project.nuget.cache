@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LemMKDO0rJY=",
+  "dgSpecHash": "EJ82L2fqsdY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Styx\\Desktop\\StyxEngine\\StyxEngine.csproj",
+  "projectFilePath": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\StyxEngine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Styx\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.4\\microsoft.win32.systemevents.9.0.4.nupkg.sha512",
     "C:\\Users\\Styx\\.nuget\\packages\\system.drawing.common\\9.0.4\\system.drawing.common.9.0.4.nupkg.sha512"

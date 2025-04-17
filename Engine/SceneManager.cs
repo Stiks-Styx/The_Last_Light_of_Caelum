@@ -8,21 +8,20 @@ namespace StyxEngine.Engine
 {
     public static class SceneManager
     {
-        private static IScene currentScene;
-
-        public static void SetScene(IScene newScene)
+        public static void ChangeScene(Form form, UserControl newScene)
         {
-            currentScene = newScene;
+            form.Controls.Clear();
+            newScene.Dock = DockStyle.Fill;
+            form.Controls.Add(newScene);
+            newScene.Focus();
         }
 
-        public static void Update()
+        public static void RegisterObstacles(MainGame game, UserControl level)
         {
-            currentScene?.Update();
-        }
-
-        public static void Draw(Graphics g)
-        {
-            currentScene?.Draw(g);
+            if (level is ILevelWithObstacles levelWithObstacles)
+            {
+                game.Obstacles.AddRange(levelWithObstacles.Obstacles);
+            }
         }
     }
 }

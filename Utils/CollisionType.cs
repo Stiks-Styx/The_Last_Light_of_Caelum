@@ -8,6 +8,7 @@
         Collectible,    // Items like coins or power-ups
         Hazard,         // Traps, spikes, or anything dangerous
         Goal,           // Endpoints like flags, checkpoints
+        Door,
         Player
     }
 }

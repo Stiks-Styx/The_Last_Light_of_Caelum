@@ -27,3 +27,30 @@ C:\Users\Styx\Desktop\StyxEngine\obj\Debug\net8.0-windows\StyxEngine.pdb
 C:\Users\Styx\Desktop\StyxEngine\obj\Debug\net8.0-windows\StyxEngine.genruntimeconfig.cache
 C:\Users\Styx\Desktop\StyxEngine\obj\Debug\net8.0-windows\ref\StyxEngine.dll
 C:\Users\Styx\Desktop\StyxEngine\obj\Debug\net8.0-windows\StyxEngine.Properties.EnemyResources.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\StyxEngine.exe
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\StyxEngine.deps.json
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\StyxEngine.runtimeconfig.json
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\StyxEngine.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\StyxEngine.pdb
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.csproj.AssemblyReference.cache
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.g.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Levels.TestLevel.TestLevel1.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Properties.EnemyResources.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Properties.Resources.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainGame.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.csproj.GenerateResource.cache
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.AssemblyInfoInputs.cache
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.AssemblyInfo.cs
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.csproj.CoreCompileInputs.cache
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.csproj.Up2Date
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\refint\StyxEngine.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.pdb
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.genruntimeconfig.cache
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\ref\StyxEngine.dll
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Properties.TilesResources.resources

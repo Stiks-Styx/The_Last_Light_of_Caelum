@@ -42,6 +42,9 @@ namespace StyxEngine.Engine
             this.rightAttackHitBox.Enabled = false;
             this.leftAttackHitBox.Enabled = false;
 
+            rightAttackHitBox.BackColor = Color.FromArgb(120, Color.Red); // semi-transparent red
+            leftAttackHitBox.BackColor = Color.FromArgb(120, Color.Blue); // semi-transparent blue
+
             LoadAnimation();
         }
 
@@ -114,12 +117,12 @@ namespace StyxEngine.Engine
                 return;
             }
 
+            UpdatePlayerAnimation(input);
             ApplyHorizontalMovement(input, deltaTime);
             ApplyGravityAndJump(input, deltaTime);
             ApplyVerticalMovement(deltaTime);
             UpdateSpriteLocation();
             UpdateAttackHitBoxLocation();
-            UpdatePlayerAnimation(input);
         }
 
         private void UpdatePlayerAnimation(PlayerState input)
@@ -232,34 +235,43 @@ namespace StyxEngine.Engine
             return grounded;
         }
 
+
         private void UpdateSpriteLocation()
         {
-            int spriteX = _mainGame.playerHitBox.Location.X + (_mainGame.playerHitBox.Width / 2) - (_mainGame.Player.Width / 2) + 11;
-            int spriteY = _mainGame.playerHitBox.Location.Y + _mainGame.playerHitBox.Height - _mainGame.Player.Height;
-            _mainGame.Player.Location = new Point(spriteX, spriteY);
+            var hitBox = _mainGame.playerHitBox.Bounds;
+            var sprite = _mainGame.Player;
+            int spriteXOffset = lastFacingRight ? 11 : -11;
+
+            int centeredX = hitBox.X + ((hitBox.Width - sprite.Width) / 2) + spriteXOffset;
+            int alignedY = hitBox.Bottom - sprite.Height;
+
+            sprite.Location = new Point(centeredX, alignedY);
         }
 
         // This method updates the location of the active attack hitbox so that it follows the player's position.
         private void UpdateAttackHitBoxLocation()
         {
-            // Get the bounds of the player's hitbox.
             Rectangle playerRect = _mainGame.playerHitBox.Bounds;
 
-            // Position the right attack hitbox if it's enabled.
+            int offsetX = 10;
+            int offsetY = 5;
+
             if (rightAttackHitBox.Enabled)
             {
-                // You can adjust these offset values based on your game's art and hitbox size.
-                int offsetX = 10;
-                int offsetY = playerRect.Height / 4;
-                rightAttackHitBox.Location = new Point(playerRect.Right + offsetX, playerRect.Top + offsetY);
+                // Position to the right side of the player hitbox
+                rightAttackHitBox.Location = new Point(
+                    playerRect.Right + offsetX,
+                    playerRect.Top - offsetY
+                );
             }
 
-            // Position the left attack hitbox if it's enabled.
             if (leftAttackHitBox.Enabled)
             {
-                int offsetX = 10;
-                int offsetY = playerRect.Height / 4;
-                leftAttackHitBox.Location = new Point(playerRect.Left - leftAttackHitBox.Width - offsetX, playerRect.Top + offsetY);
+                // Position to the left side of the player hitbox
+                leftAttackHitBox.Location = new Point(
+                    playerRect.Left - leftAttackHitBox.Width - offsetX,
+                    playerRect.Top - offsetY
+                );
             }
         }
     }
