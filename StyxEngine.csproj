@@ -145,9 +145,6 @@
     <Resource Include="Assets\Knight\__AttackRight.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Assets\Knight\__Crouch.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="Assets\Knight\__CrouchAll.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -155,9 +152,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__CrouchTransition.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\Knight\__CrouchWalk.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__Dash.gif">
@@ -244,10 +238,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>EnemyResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Properties\Resources.Designer.cs">
+    <Compile Update="Properties\PlayerResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
+      <DependentUpon>PlayerResources.resx</DependentUpon>
     </Compile>
     <Compile Update="Properties\TilesResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -270,9 +264,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>EnemyResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.resx">
+    <EmbeddedResource Update="Properties\PlayerResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <LastGenOutput>PlayerResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Properties\TilesResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -4,7 +4,19 @@
     <Compile Update="Levels\TestLevel\TestLevel1.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="MainMenu\AboutCredits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MainMenu\MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MainMenu\Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UIElements\GoalVertical.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Ground.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="UIElements\Tiles\LeftCornerTile.cs">

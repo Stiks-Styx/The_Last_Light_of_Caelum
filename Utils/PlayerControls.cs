@@ -20,7 +20,7 @@ namespace StyxEngine.Engine
         private bool lastFacingRight = true;
         private bool isAttacking = false;
         private float attackTimer = 0f;
-        private const float attackDuration = .25f; // in seconds (adjust to match your animation length)
+        private const float attackDuration = .25f; // in seconds (adjust to match the animation length)
 
         private PointF velocity = PointF.Empty;
         private const float gravity = 1000f;
@@ -50,14 +50,16 @@ namespace StyxEngine.Engine
 
         private void LoadAnimation()
         {
-            animation.AddAnimation("Idle", Properties.Resources._IdleRight);
-            animation.AddAnimation("IdleLeft", Properties.Resources._IdleLeft);
-            animation.AddAnimation("RunLeft", Properties.Resources._RunLeft);
-            animation.AddAnimation("RunRight", Properties.Resources._RunRight);
-            animation.AddAnimation("JumpLeft", Properties.Resources._JumpLeft);
-            animation.AddAnimation("JumpRight", Properties.Resources._JumpRight);
-            animation.AddAnimation("AttackLeft", Properties.Resources._AttackLeft);
-            animation.AddAnimation("AttackRight", Properties.Resources._AttackRight);
+            animation.AddAnimation("Idle", Properties.PlayerResources._IdleRight);
+            animation.AddAnimation("IdleLeft", Properties.PlayerResources._IdleLeft);
+            animation.AddAnimation("RunLeft", Properties.PlayerResources._RunLeft);
+            animation.AddAnimation("RunRight", Properties.PlayerResources._RunRight);
+            animation.AddAnimation("JumpLeft", Properties.PlayerResources._JumpLeft);
+            animation.AddAnimation("JumpRight", Properties.PlayerResources._JumpRight);
+            animation.AddAnimation("AttackLeft", Properties.PlayerResources._AttackLeft);
+            animation.AddAnimation("AttackRight", Properties.PlayerResources._AttackRight);
+            animation.AddAnimation("CrouchLeft", Properties.PlayerResources._CrouchLeft);
+            animation.AddAnimation("CrouchRight", Properties.PlayerResources._CrouchRight);
         }
 
         private struct PlayerState
@@ -130,6 +132,7 @@ namespace StyxEngine.Engine
             bool movingRight = input.HorizontalInput > 0;
             bool movingLeft = input.HorizontalInput < 0;
             bool isJumping = !IsGrounded();
+            bool isCrouching = false;
 
             if (movingRight)
                 lastFacingRight = true;
@@ -142,6 +145,9 @@ namespace StyxEngine.Engine
                 animation.Play("RunRight");
             else if (movingLeft)
                 animation.Play("RunLeft");
+            else if (isCrouching)
+                /* Crouching Animation */
+                ;
             else
                 animation.Play(lastFacingRight ? "Idle" : "IdleLeft");
         }
@@ -160,6 +166,14 @@ namespace StyxEngine.Engine
                 state.HorizontalInput += 1;
             if (InputManager.IsKeyDown(Keys.Space))
                 state.JumpPressed = true;
+            if (InputManager.IsKeyDown(Keys.S))
+            {
+                // TODO implement going down a platform
+            }
+            if (InputManager.IsKeyDown(Keys.C))
+            {
+                // TODO implement toggle crouch
+            }
 
             return state;
         }

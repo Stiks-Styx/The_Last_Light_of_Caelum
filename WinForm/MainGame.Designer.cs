@@ -42,7 +42,8 @@
             // Player
             // 
             Player.BackColor = Color.DimGray;
-            Player.Image = Properties.Resources._AttackRight;
+            Player.Image = Properties.PlayerResources._CrouchRight;
+            Player.InitialImage = null;
             Player.Location = new Point(13, 38);
             Player.Margin = new Padding(0);
             Player.Name = "Player";
