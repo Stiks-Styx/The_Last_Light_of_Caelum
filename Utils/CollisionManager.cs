@@ -31,5 +31,20 @@ namespace StyxEngine.Utils
             }
             return CollisionType.None; // No collision
         }
+
+        public static CollisionType CheckCollisionType(Rectangle rect, List<PictureBox> obstacles)
+        {
+            foreach (var obstacle in obstacles)
+            {
+                if (rect.IntersectsWith(obstacle.Bounds))
+                {
+                    if (obstacle.Tag != null && Enum.TryParse(obstacle.Tag.ToString(), out CollisionType collisionType))
+                    {
+                        return collisionType;
+                    }
+                }
+            }
+            return CollisionType.None;
+        }
     }
 }

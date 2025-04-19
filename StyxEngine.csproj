@@ -47,7 +47,6 @@
     <None Remove="Assets\Knight\__Hit.gif" />
     <None Remove="Assets\Knight\__Idle.gif" />
     <None Remove="Assets\Knight\__JumpFallInbetween.gif" />
-    <None Remove="Assets\Knight\__Roll.gif" />
     <None Remove="Assets\Knight\__RunLeft.gif" />
     <None Remove="Assets\Knight\__RunRight.gif" />
     <None Remove="Assets\Knight\__Slide.gif" />
@@ -178,19 +177,13 @@
     <Resource Include="Assets\Knight\__JumpFallInbetween.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Assets\Knight\__Roll.gif">
+    <Resource Include="Assets\Knight\__RollRight.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__RunLeft.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__RunRight.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\Knight\__Slide.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\Knight\__SlideAll.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__SlideTransitionEnd.gif">

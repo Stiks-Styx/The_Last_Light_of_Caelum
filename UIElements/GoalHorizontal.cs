@@ -13,6 +13,8 @@ namespace StyxEngine.UIElements
         {
             this.Tag = CollisionType.Goal.ToString();
             this.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            this.BackColor = Color.Transparent;
+            this.Margin = new Padding(0, 0, 0, 0);
         }
     }
 }

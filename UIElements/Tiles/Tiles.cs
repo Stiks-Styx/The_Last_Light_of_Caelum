@@ -12,7 +12,9 @@ namespace StyxEngine.UIElements.Tiles
         public Tiles()
         {
             int index = random.Next(0, 2);
-            Image = index == 0 ? Properties.TilesResources.floor_tile_2 : Properties.TilesResources.floor_tile_3;
+            this.BackgroundImage= index == 0 ? Properties.TilesResources.floor_tile_2 : Properties.TilesResources.floor_tile_3;
+            this.Size = new Size(32, 32);
+            this.Image = null;
         }
     }
 }

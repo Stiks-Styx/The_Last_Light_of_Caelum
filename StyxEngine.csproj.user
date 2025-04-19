@@ -4,6 +4,9 @@
     <Compile Update="Levels\TestLevel\TestLevel1.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Levels\TestLevel\TestLevel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="MainMenu\AboutCredits.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -61,5 +61,6 @@ namespace StyxEngine.Utils
             leftMouseDown = false;
             leftMousePreviouslyDown = false;
         }
+
     }
 }

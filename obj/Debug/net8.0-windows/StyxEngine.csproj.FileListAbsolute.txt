@@ -57,3 +57,4 @@ C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Prop
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainMenu.AboutCredits.resources
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainMenu.MainMenu.resources
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainMenu.Settings.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Levels.TestLevel.TestLevel2.resources

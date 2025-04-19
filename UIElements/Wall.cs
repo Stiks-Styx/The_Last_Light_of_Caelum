@@ -18,6 +18,7 @@ namespace StyxEngine.UIElements
             this.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             this.SizeMode = PictureBoxSizeMode.StretchImage;
             this.BackColor = Color.Black;
+            this.Enabled = false;
         }
     }
 }

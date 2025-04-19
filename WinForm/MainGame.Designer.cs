@@ -33,6 +33,7 @@
             playerHealthBar = new ProgressBar();
             rightAttackHitBox = new PictureBox();
             leftAttackHitBox = new PictureBox();
+            DashCooldownBar = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)playerHitBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)rightAttackHitBox).BeginInit();
@@ -41,10 +42,10 @@
             // 
             // Player
             // 
-            Player.BackColor = Color.DimGray;
+            Player.BackColor = Color.Transparent;
             Player.Image = Properties.PlayerResources._CrouchRight;
             Player.InitialImage = null;
-            Player.Location = new Point(13, 38);
+            Player.Location = new Point(12, 49);
             Player.Margin = new Padding(0);
             Player.Name = "Player";
             Player.Size = new Size(240, 160);
@@ -57,7 +58,7 @@
             playerHitBox.BackColor = Color.Tomato;
             playerHitBox.ErrorImage = null;
             playerHitBox.InitialImage = null;
-            playerHitBox.Location = new Point(100, 121);
+            playerHitBox.Location = new Point(99, 132);
             playerHitBox.Name = "playerHitBox";
             playerHitBox.Size = new Size(42, 77);
             playerHitBox.SizeMode = PictureBoxSizeMode.Zoom;
@@ -78,7 +79,8 @@
             // 
             // rightAttackHitBox
             // 
-            rightAttackHitBox.Location = new Point(154, 117);
+            rightAttackHitBox.Enabled = false;
+            rightAttackHitBox.Location = new Point(153, 128);
             rightAttackHitBox.Name = "rightAttackHitBox";
             rightAttackHitBox.Size = new Size(94, 81);
             rightAttackHitBox.TabIndex = 35;
@@ -86,11 +88,24 @@
             // 
             // leftAttackHitBox
             // 
-            leftAttackHitBox.Location = new Point(17, 117);
+            leftAttackHitBox.Enabled = false;
+            leftAttackHitBox.Location = new Point(16, 128);
             leftAttackHitBox.Name = "leftAttackHitBox";
             leftAttackHitBox.Size = new Size(94, 81);
             leftAttackHitBox.TabIndex = 36;
             leftAttackHitBox.TabStop = false;
+            // 
+            // DashCooldownBar
+            // 
+            DashCooldownBar.BackColor = Color.Red;
+            DashCooldownBar.ForeColor = Color.LightGreen;
+            DashCooldownBar.Location = new Point(12, 36);
+            DashCooldownBar.Name = "DashCooldownBar";
+            DashCooldownBar.Size = new Size(235, 10);
+            DashCooldownBar.Step = 100;
+            DashCooldownBar.Style = ProgressBarStyle.Continuous;
+            DashCooldownBar.TabIndex = 37;
+            DashCooldownBar.Value = 100;
             // 
             // MainGame
             // 
@@ -99,6 +114,7 @@
             AutoSize = true;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(1350, 729);
+            Controls.Add(DashCooldownBar);
             Controls.Add(leftAttackHitBox);
             Controls.Add(rightAttackHitBox);
             Controls.Add(playerHealthBar);
@@ -122,5 +138,6 @@
         public ProgressBar playerHealthBar;
         public PictureBox leftAttackHitBox;
         public PictureBox rightAttackHitBox;
+        public ProgressBar DashCooldownBar;
     }
 }

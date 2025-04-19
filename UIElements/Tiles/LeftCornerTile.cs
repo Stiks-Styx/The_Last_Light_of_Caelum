@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StyxEngine.UIElements.Tiles
 {
-    public class LeftCornerTile : Wall
+    public class LeftCornerTile : Tiles
     {
         public LeftCornerTile()
         {

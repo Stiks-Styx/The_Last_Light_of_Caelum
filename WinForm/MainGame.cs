@@ -24,7 +24,6 @@ namespace StyxEngine
 
         private PlayerControls playerControls;  // Declare PlayerControls
         private DebugInfoManager debugInfoManager;  // Declare DebugInfoManager
-
         public MainGame()
         {
             InitializeComponent();
@@ -54,14 +53,10 @@ namespace StyxEngine
             this.MouseDown += (s, e) => InputManager.MouseDown(e.Button);
             this.MouseUp += (s, e) => InputManager.MouseUp(e.Button);
 
-
-            Player.Parent = this;
-            Player.Focus();
-            this.Focus();
-
-            TestLevel1 level = new TestLevel1(GetGameState());
-            SceneManager.RegisterObstacles(this, level);
-            SceneManager.ChangeScene(this, level);
+            TestLevel1 level1 = new TestLevel1(GetGameState());
+            //TestLevel2 level2 = new TestLevel2(GetGameState());
+            SceneManager.RegisterObstacles(this, level1);
+            SceneManager.ChangeScene(this, level1);
         }
 
         private void MainGame_KeyDown(object sender, KeyEventArgs e)
@@ -83,8 +78,11 @@ namespace StyxEngine
                 RightAttackHitBox = this.rightAttackHitBox,
                 LeftAttackHitBox = this.leftAttackHitBox,
                 HealthBar = this.playerHealthBar,
+                DashCooldownBar = this.DashCooldownBar,
                 PlayerControls = this.playerControls,
-                DebugInfoManager = this.debugInfoManager
+                DebugInfoManager = this.debugInfoManager,
+                CurrentHealth = this.playerHealthBar.Value,
+                LivesAmount = 3
             };
             return gameState;
         }
