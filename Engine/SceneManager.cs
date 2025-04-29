@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace StyxEngine.Engine
 {
@@ -20,8 +18,19 @@ namespace StyxEngine.Engine
         {
             if (level is ILevelWithObstacles levelWithObstacles)
             {
+                game.Obstacles.Clear();
                 game.Obstacles.AddRange(levelWithObstacles.Obstacles);
             }
+        }
+
+        public static UserControl LoadLevelByName(string levelName, GameState state)
+        {
+            return levelName switch
+            {
+                "TestLevel1" => new Levels.TestLevel.TestLevel1(state),
+                "TestLevel2" => new Levels.TestLevel.TestLevel2(state),
+                _ => throw new ArgumentException("Unknown level name")
+            };
         }
     }
 }

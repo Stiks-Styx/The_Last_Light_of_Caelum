@@ -19,6 +19,7 @@ namespace StyxEngine.UIElements
             this.SizeMode = PictureBoxSizeMode.StretchImage;
             this.BackColor = Color.Black;
             this.Enabled = false;
+            this.BackgroundImageLayout = ImageLayout.Tile;
         }
     }
 }

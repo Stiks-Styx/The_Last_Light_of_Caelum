@@ -10,7 +10,7 @@ namespace StyxEngine.UIElements.Tiles
     {
         public RightCornerTile()
         {
-            this.Image = Properties.TilesResources.floor_tile_4;
+            this.BackgroundImage = Properties.TilesResources.floor_tile_4;
         }
     }
 }

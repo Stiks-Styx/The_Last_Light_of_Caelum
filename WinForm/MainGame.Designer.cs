@@ -30,10 +30,10 @@
         {
             Player = new PictureBox();
             playerHitBox = new PictureBox();
-            playerHealthBar = new ProgressBar();
             rightAttackHitBox = new PictureBox();
             leftAttackHitBox = new PictureBox();
             DashCooldownBar = new ProgressBar();
+            playerHealthBar = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)playerHitBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)rightAttackHitBox).BeginInit();
@@ -58,24 +58,12 @@
             playerHitBox.BackColor = Color.Tomato;
             playerHitBox.ErrorImage = null;
             playerHitBox.InitialImage = null;
-            playerHitBox.Location = new Point(99, 132);
+            playerHitBox.Location = new Point(96, 132);
             playerHitBox.Name = "playerHitBox";
-            playerHitBox.Size = new Size(42, 77);
+            playerHitBox.Size = new Size(49, 77);
             playerHitBox.SizeMode = PictureBoxSizeMode.Zoom;
             playerHitBox.TabIndex = 11;
             playerHitBox.TabStop = false;
-            // 
-            // playerHealthBar
-            // 
-            playerHealthBar.BackColor = Color.Red;
-            playerHealthBar.ForeColor = Color.Lime;
-            playerHealthBar.Location = new Point(12, 12);
-            playerHealthBar.Name = "playerHealthBar";
-            playerHealthBar.Size = new Size(307, 18);
-            playerHealthBar.Step = 100;
-            playerHealthBar.Style = ProgressBarStyle.Continuous;
-            playerHealthBar.TabIndex = 34;
-            playerHealthBar.Value = 100;
             // 
             // rightAttackHitBox
             // 
@@ -107,6 +95,18 @@
             DashCooldownBar.TabIndex = 37;
             DashCooldownBar.Value = 100;
             // 
+            // playerHealthBar
+            // 
+            playerHealthBar.BackColor = Color.Red;
+            playerHealthBar.ForeColor = Color.Purple;
+            playerHealthBar.Location = new Point(12, 12);
+            playerHealthBar.Name = "playerHealthBar";
+            playerHealthBar.Size = new Size(307, 18);
+            playerHealthBar.Step = 100;
+            playerHealthBar.Style = ProgressBarStyle.Continuous;
+            playerHealthBar.TabIndex = 34;
+            playerHealthBar.Value = 100;
+            // 
             // MainGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -135,9 +135,9 @@
         public PictureBox Player;
         public PictureBox playerHitBox;
         private Panel panel3;
-        public ProgressBar playerHealthBar;
         public PictureBox leftAttackHitBox;
         public PictureBox rightAttackHitBox;
         public ProgressBar DashCooldownBar;
+        public ProgressBar playerHealthBar;
     }
 }

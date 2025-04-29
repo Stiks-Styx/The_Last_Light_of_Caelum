@@ -13,7 +13,7 @@ using StyxEngine.Utils;
 
 namespace StyxEngine.Levels.TestLevel
 {
-    public partial class TestLevel2: UserControl
+    public partial class TestLevel2: UserControl , ILevelWithObstacles
     {
         public List<PictureBox> Obstacles { get; private set; } = new List<PictureBox>();
 

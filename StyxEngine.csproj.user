@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Engine\Goal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Levels\Level1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Levels\Level2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Levels\TestLevel\TestLevel1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -16,10 +25,34 @@
     <Compile Update="MainMenu\Settings.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UIElements\Decoration\Destroyable\Barrel1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Decoration\Destroyable\DamagedBarrel1.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="UIElements\GoalVertical.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="UIElements\Ground.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\Blank.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\BlankSideRight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\Briks1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\Briks2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\DamagedBricks1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\GroundBricks.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="UIElements\Tiles\LeftCornerTile.cs">
@@ -30,6 +63,9 @@
     </Compile>
     <Compile Update="UIElements\Wall.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Utils\PlayerControls.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="WinForm\MainGame.cs">
       <SubType>Form</SubType>

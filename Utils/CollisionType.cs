@@ -9,6 +9,7 @@
         Hazard,         // Traps, spikes, or anything dangerous
         Goal,           // Endpoints like flags, checkpoints
         Door,
+        Destroyable,
         Player
     }
 }

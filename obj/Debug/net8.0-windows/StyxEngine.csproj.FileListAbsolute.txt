@@ -58,3 +58,7 @@ C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Main
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainMenu.MainMenu.resources
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.MainMenu.Settings.resources
 C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Levels.TestLevel.TestLevel2.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Levels.Level1.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Levels.Level2.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Properties.DestroyableResources.resources
+C:\Users\Styx\Desktop\StyxEngine - Test\obj\Debug\net8.0-windows\StyxEngine.Properties.HeartsResources.resources

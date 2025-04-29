@@ -3,84 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\mainmenu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:mainmenu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\properties\\playerresources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:properties\\playerresources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\levelinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\levelinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\engine\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:engine\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\levelinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\levelinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\engine\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:engine\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\uielements\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:uielements\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\obstaclecontrolshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\obstaclecontrolshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\engine\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:engine\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\engine\\ilevelwithobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:engine\\ilevelwithobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\components\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:components\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:levels\\testlevel\\testlevel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\engine\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:engine\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:winform\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\components\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:components\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|c:\\users\\styx\\desktop\\styxengine - test\\utils\\debuginfomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC90411-FA05-496C-962B-592AD5A93D39}|StyxEngine.csproj|solutionrelative:utils\\debuginfomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,250 +66,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\MainMenu\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\MainMenu\\MainMenu.cs [Design]",
-              "RelativeToolTip": "MainMenu\\MainMenu.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T04:37:53.452Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-26T07:52:17.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameLoop.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameLoop.cs",
-              "RelativeDocumentMoniker": "Engine\\GameLoop.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameLoop.cs",
-              "RelativeToolTip": "Engine\\GameLoop.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:38:03.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "LevelInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\LevelInitializer.cs",
               "RelativeDocumentMoniker": "Utils\\LevelInitializer.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\LevelInitializer.cs",
               "RelativeToolTip": "Utils\\LevelInitializer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:55:33.854Z"
+              "WhenOpened": "2025-04-21T23:26:53.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "TestLevel2.cs",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel2.cs",
               "RelativeDocumentMoniker": "Levels\\TestLevel\\TestLevel2.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel2.cs",
               "RelativeToolTip": "Levels\\TestLevel\\TestLevel2.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAADAZWZmZmYkwBcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:52:48.545Z",
+              "WhenOpened": "2025-04-21T23:24:33.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TestLevel1.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs",
-              "RelativeDocumentMoniker": "Levels\\TestLevel\\TestLevel1.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs",
-              "RelativeToolTip": "Levels\\TestLevel\\TestLevel1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:56:02.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "TestLevel2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel2.cs",
               "RelativeDocumentMoniker": "Levels\\TestLevel\\TestLevel2.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel2.cs [Design]",
               "RelativeToolTip": "Levels\\TestLevel\\TestLevel2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:52:07.066Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-21T23:24:27.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TestLevel1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs",
               "RelativeDocumentMoniker": "Levels\\TestLevel\\TestLevel1.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs [Design]",
               "RelativeToolTip": "Levels\\TestLevel\\TestLevel1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:53:36.188Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-21T23:18:04.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CollisionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\CollisionManager.cs",
-              "RelativeDocumentMoniker": "Utils\\CollisionManager.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\CollisionManager.cs",
-              "RelativeToolTip": "Utils\\CollisionManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwC8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\Goal.cs",
+              "RelativeDocumentMoniker": "Engine\\Goal.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\Goal.cs",
+              "RelativeToolTip": "Engine\\Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:40:25.249Z"
+              "WhenOpened": "2025-04-21T23:01:47.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\InputManager.cs",
-              "RelativeDocumentMoniker": "Utils\\InputManager.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\InputManager.cs",
-              "RelativeToolTip": "Utils\\InputManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwAwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TestLevel1.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs",
+              "RelativeDocumentMoniker": "Levels\\TestLevel\\TestLevel1.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Levels\\TestLevel\\TestLevel1.cs",
+              "RelativeToolTip": "Levels\\TestLevel\\TestLevel1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:23:13.967Z"
+              "WhenOpened": "2025-04-21T22:57:52.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerControls.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\PlayerControls.cs",
+              "RelativeDocumentMoniker": "Utils\\PlayerControls.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\PlayerControls.cs",
+              "RelativeToolTip": "Utils\\PlayerControls.cs",
+              "ViewState": "AgIAAKwBAAAAAAAAAADwv8YBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T22:57:25.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameState.cs",
+              "RelativeDocumentMoniker": "Engine\\GameState.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameState.cs",
+              "RelativeToolTip": "Engine\\GameState.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:13:00.969Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Engine\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\SceneManager.cs",
+              "RelativeToolTip": "Engine\\SceneManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:06:18.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerHealthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\PlayerHealthManager.cs",
+              "RelativeDocumentMoniker": "Components\\PlayerHealthManager.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\PlayerHealthManager.cs",
+              "RelativeToolTip": "Components\\PlayerHealthManager.cs",
+              "ViewState": "AgIAABUAAADgmZmZmRknwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:57:44.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Components\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\HealthBar.cs",
+              "RelativeToolTip": "Components\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:57:18.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MainGame.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\WinForm\\MainGame.cs",
               "RelativeDocumentMoniker": "WinForm\\MainGame.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\WinForm\\MainGame.cs [Design]",
               "RelativeToolTip": "WinForm\\MainGame.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:32:15.826Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-21T17:52:12.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerResources.resx",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Properties\\PlayerResources.resx",
-              "RelativeDocumentMoniker": "Properties\\PlayerResources.resx",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Properties\\PlayerResources.resx",
-              "RelativeToolTip": "Properties\\PlayerResources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-04-18T05:31:32.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Wall.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\UIElements\\Wall.cs",
-              "RelativeDocumentMoniker": "UIElements\\Wall.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\UIElements\\Wall.cs",
-              "RelativeToolTip": "UIElements\\Wall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:26:21.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerControls.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\PlayerControls.cs",
-              "RelativeDocumentMoniker": "Utils\\PlayerControls.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\PlayerControls.cs",
-              "RelativeToolTip": "Utils\\PlayerControls.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAYwFgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:21:48.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ObstacleControlsHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\ObstacleControlsHelper.cs",
-              "RelativeDocumentMoniker": "Utils\\ObstacleControlsHelper.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\ObstacleControlsHelper.cs",
-              "RelativeToolTip": "Utils\\ObstacleControlsHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:52:16.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ILevelWithObstacles.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\ILevelWithObstacles.cs",
-              "RelativeDocumentMoniker": "Engine\\ILevelWithObstacles.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\ILevelWithObstacles.cs",
-              "RelativeToolTip": "Engine\\ILevelWithObstacles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:45:26.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DebugInfoManager.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\DebugInfoManager.cs",
-              "RelativeDocumentMoniker": "Utils\\DebugInfoManager.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Utils\\DebugInfoManager.cs",
-              "RelativeToolTip": "Utils\\DebugInfoManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:20:56.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\HealthBar.cs",
-              "RelativeDocumentMoniker": "Components\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Components\\HealthBar.cs",
-              "RelativeToolTip": "Components\\HealthBar.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:20:21.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameState.cs",
-              "RelativeDocumentMoniker": "Engine\\GameState.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\GameState.cs",
-              "RelativeToolTip": "Engine\\GameState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:17:47.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SceneManager.cs",
-              "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\SceneManager.cs",
-              "RelativeDocumentMoniker": "Engine\\SceneManager.cs",
-              "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\Engine\\SceneManager.cs",
-              "RelativeToolTip": "Engine\\SceneManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:06:54.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MainGame.cs",
               "DocumentMoniker": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\WinForm\\MainGame.cs",
               "RelativeDocumentMoniker": "WinForm\\MainGame.cs",
               "ToolTip": "C:\\Users\\Styx\\Desktop\\StyxEngine - Test\\WinForm\\MainGame.cs",
               "RelativeToolTip": "WinForm\\MainGame.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDcAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAA8ZmZmZmYrwFgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:54:44.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T07:43:39.797Z"
             }
           ]
         }

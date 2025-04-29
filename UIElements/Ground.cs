@@ -11,6 +11,7 @@ namespace StyxEngine.UIElements
         public Ground()
         {
             this.BackColor = Color.SaddleBrown;
+            this.Size = new Size(1366, 64);
         }
     }
 }

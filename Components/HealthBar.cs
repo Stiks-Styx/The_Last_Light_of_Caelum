@@ -1,26 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
 namespace StyxEngine.Components
 {
     public class HealthBar
     {
-        public int maxHealth = 100;
         private MainGame _mainGame;
+        private ProgressBar _healthProgressBar;
 
-        public HealthBar(MainGame mainGame)
+        public int MaxHealth { get; private set; } = 100;
+
+        public HealthBar(MainGame mainGame, ProgressBar healthProgressBar, int maxHealth = 100)
         {
             _mainGame = mainGame;
+            _healthProgressBar = healthProgressBar;
+            MaxHealth = maxHealth;
+
+            _healthProgressBar.Minimum = 0;
+            _healthProgressBar.Maximum = maxHealth;
+            _healthProgressBar.Value = maxHealth;
         }
 
-        // Update the health bar value
-        public void UpdateHealth(int newHealth)
+        // Call this when player health changes
+        public void SetHealth(int currentHealth, int maxHealth)
         {
-            if (newHealth <= 0) newHealth = 0;
-            if (newHealth >= maxHealth) newHealth = maxHealth;
+            if (currentHealth < 0) currentHealth = 0;
+            if (currentHealth > maxHealth) currentHealth = maxHealth;
+
+            _healthProgressBar.Maximum = maxHealth;
+            _healthProgressBar.Value = currentHealth;
         }
     }
 }

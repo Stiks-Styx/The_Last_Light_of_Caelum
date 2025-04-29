@@ -1,8 +1,4 @@
 ﻿using StyxEngine.Engine;
-using StyxEngine.Utils;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Windows.Forms;
 
 namespace StyxEngine.Utils
 {
@@ -10,6 +6,8 @@ namespace StyxEngine.Utils
     {
         public static void InitializeLevel(UserControl levelControl, GameState state, out List<PictureBox> obstacles)
         {
+            levelControl.Dock = DockStyle.Fill; // Ensure level fills parent
+
             // Input bindings
             levelControl.KeyDown += (s, e) => InputManager.KeyDown(e.KeyCode);
             levelControl.KeyUp += (s, e) => InputManager.KeyUp(e.KeyCode);
@@ -26,18 +24,24 @@ namespace StyxEngine.Utils
 
             // Set parent and visibility
             state.Player.Parent = levelControl;
-            state.Player.Visible = true;
             state.PlayerHitBox.Parent = levelControl;
+            state.Player.Visible = true;
 
-            // Set starting positions
-            state.Player.Location = new Point(100, 100);
-            state.PlayerHitBox.Location = state.Player.Location;
-/*
-            state.PlayerHitBox.Visible = true;
-            state.PlayerHitBox.BringToFront();
+            // Determine spawn position
+            var spawnPos = state.OverrideSpawnPosition ?? new Point(
+                levelControl.Width / 2 - state.Player.Width / 2,
+                levelControl.Height / 2 - state.Player.Height / 2
+            );
+            Console.WriteLine($"Initializing level with spawn position: {spawnPos}");
 
-            state.RightAttackHitBox.BringToFront();
-            state.LeftAttackHitBox.BringToFront();*/
+            state.Player.Location = spawnPos;
+            state.PlayerHitBox.Location = spawnPos;
+
+            // Bring player-related hitboxes to front
+            /*            state.Player.BringToFront();
+                        state.PlayerHitBox.BringToFront();
+                        state.RightAttackHitBox.BringToFront();
+                        state.LeftAttackHitBox.BringToFront();*/
 
             // Collect and optionally add obstacles
             obstacles = ObstacleControlsHelper.CollectObstacles(levelControl);

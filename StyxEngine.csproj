@@ -27,6 +27,11 @@
     <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_run_attackRight.gif" />
     <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkLeft.gif" />
     <None Remove="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkRight.gif" />
+    <None Remove="Assets\Hearts\1_2_heart.png" />
+    <None Remove="Assets\Hearts\1_4_heart.png" />
+    <None Remove="Assets\Hearts\3_4_heart.png" />
+    <None Remove="Assets\Hearts\empty_heart.png" />
+    <None Remove="Assets\Hearts\full_heart.png" />
     <None Remove="Assets\Knight\__Attack.gif" />
     <None Remove="Assets\Knight\__Attack2.gif" />
     <None Remove="Assets\Knight\__Attack2NoMovement.gif" />
@@ -121,6 +126,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Enemys\skeleton_warrior\skeleton_warrior_walkRight.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Hearts\1_2_heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Hearts\1_4_heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Hearts\3_4_heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Hearts\empty_heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Hearts\full_heart.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Knight\__Attack2.gif">
@@ -226,10 +246,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\DestroyableResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DestroyableResources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\EnemyResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>EnemyResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\HeartsResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HeartsResources.resx</DependentUpon>
     </Compile>
     <Compile Update="Properties\PlayerResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -247,15 +277,38 @@
     <Compile Update="UIElements\GoalHorizontal.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="UIElements\Tiles\BlankSideLeft.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\DamagedBricks3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\DamagedBricks2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\GroundCarpet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UIElements\Tiles\GroundWood.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="UIElements\Tiles\RightCornerTile.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Properties\DestroyableResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DestroyableResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Properties\EnemyResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>EnemyResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\HeartsResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HeartsResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Properties\PlayerResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

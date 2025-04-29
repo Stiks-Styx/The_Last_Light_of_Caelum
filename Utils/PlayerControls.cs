@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace StyxEngine.Engine
 {
-    public class PlayerControls
+    public class PlayerControls : Form
     {
         private MainGame _mainGame;
         private AnimationController animation;
@@ -202,8 +202,7 @@ namespace StyxEngine.Engine
                     if (!IsGrounded())
                         hasAirDashed = true;
 
-                    // Optional: Add dash animation here
-                    animation.Play(lastFacingRight ? "SlideLeft" : "SlideRight");
+                    animation.Play(lastFacingRight ? "SlideRight" : "SlideLeft");
                     return;
                 }
             }
@@ -214,6 +213,7 @@ namespace StyxEngine.Engine
             ApplyVerticalMovement(deltaTime);
             UpdateSpriteLocation();
             UpdateAttackHitBoxLocation();
+            CheckScreenEdge();
 
             if (IsGrounded())
             {
@@ -427,6 +427,73 @@ namespace StyxEngine.Engine
                     playerRect.Top - offsetY
                 );
             }
+        }
+
+        private void CheckScreenEdge()
+        {
+            var mainForm = _mainGame.FindForm() as MainGame;
+            if (mainForm?.GameState == null)
+            {
+                Console.WriteLine("Main form or GameState is null");
+                return;
+            }
+
+            // Get current level container
+            var levelContainer = mainForm.ActiveControl as UserControl;
+            if (levelContainer == null)
+            {
+                Console.WriteLine("No active level container");
+                return;
+            }
+
+            // Get screen boundaries
+            int screenRight = levelContainer.ClientSize.Width;
+            int screenLeft = 0;
+            var playerBounds = _mainGame.playerHitBox.Bounds;
+
+            //Console.WriteLine($"Player Position: {playerBounds.Location}");
+            //Console.WriteLine($"Screen Boundaries: L-{screenLeft} R-{screenRight}");
+
+            // Right edge transition
+            if (playerBounds.Right >= screenRight)
+            {
+                Console.WriteLine("Right edge triggered");
+                TransitionLevel(mainForm, levelContainer, Direction.Right);
+                return;
+            }
+
+            // Left edge transition
+            if (playerBounds.Left <= screenLeft)
+            {
+                Console.WriteLine("Left edge triggered");
+                TransitionLevel(mainForm, levelContainer, Direction.Left);
+                return;
+            }
+        }
+
+        private enum Direction { Left, Right }
+
+        private void TransitionLevel(MainGame mainForm, UserControl currentLevel, Direction direction)
+        {
+            string currentLevelName = mainForm.GameState.CurrentLevelName;
+            string newLevelName = currentLevelName == "TestLevel1" ? "TestLevel2" : "TestLevel1";
+
+            // Calculate spawn position
+            Point spawnPos = direction switch
+            {
+                Direction.Right => new Point(
+                    50, // Spawn 50px from left in new level
+                    _mainGame.playerHitBox.Top
+                ),
+                Direction.Left => new Point(
+                    currentLevel.ClientSize.Width - _mainGame.playerHitBox.Width - 50,
+                    _mainGame.playerHitBox.Top
+                ),
+                _ => Point.Empty
+            };
+
+            Console.WriteLine($"Transitioning to {newLevelName} at {spawnPos}");
+            mainForm.SafeTransition(newLevelName, spawnPos);
         }
     }
 }
